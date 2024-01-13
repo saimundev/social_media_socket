@@ -1,7 +1,7 @@
 import { Server } from "socket.io";
 
 const io = new Server({
-  cors: "http://localhost:3000/",
+  cors: "https://friendzon.vercel.app/",
 });
 
 const port = process.env.PORT || 5000;
